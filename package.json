@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.0.6",
   "main": "./index.js",
-  "repository": "git://github.com/desirecoin/bitcore-node-desire.git",
-  "homepage": "https://github.com/desirecoin/bitcore-node-desire",
+  "repository": "git://github.com/lazyboozer/bitcore-node-desire.git",
+  "homepage": "https://github.com/lazyboozer/bitcore-node-desire",
   "bugs": {
-    "url": "https://github.com/desirecoin/bitcore-node-desire/issues"
+    "url": "https://github.com/lazyboozer/bitcore-node-desire/issues"
   },
   "contributors": [
     {

@@ -1,7 +1,7 @@
 Bitcore Node Desire
 ============
 
-A Desire full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Desire Core v0.12.2.x](https://github.com/lazyboozer/Desire/tree/Desire-v.0.12.2.2) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Desire full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Desire Core v0.12.1.x](https://github.com/desirecoin/desire/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -11,7 +11,7 @@ npm install -g bitcore-node-desire
 
 ## Prerequisites
 
-- Desire Core (v0.12.2.x) with support for additional indexing *(see above)*
+- Desire Core (v0.12.1.x) with support for additional indexing *(see above)*
 - Node.js v0.10, v0.12, v4 or v5
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
 - ~20GB of disk storage
@@ -31,7 +31,7 @@ bitcore-node-desire start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-Please note that [Desire Core v0.12.2.x](https://github.com/lazyboozer/Desire/tree/Desire-v.0.12.2.2) will be downloaded automatically. Once completed the desired binary should be placed into the &lt;desire-data-dir&gt; folder specified during node creation.
+Please note that [Desire Core v0.12.1.x](https://github.com/desirecoin/desire/tree/v0.12.1.x) will be downloaded automatically. Once completed the desired binary should be placed into the &lt;desire-data-dir&gt; folder specified during node creation.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 
@@ -39,9 +39,9 @@ For more information about (and developing) services, please see the [Service Do
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/lazyboozer/insight-api-desire/tree/master)
-- [Insight UI](https://github.com/lazyboozer/insight-ui-desire/tree/master)
-- [Bitcore Wallet Service](https://github.com/lazyboozer/bitcore-wallet-service/tree/master)
+- [Insight API](https://github.com/desirecoin/insight-api-desire/tree/master)
+- [Insight UI](https://github.com/desirecoin/insight-ui-desire/tree/master)
+- [Bitcore Wallet Service](https://github.com/desirecoin/bitcore-wallet-service/tree/master)
 
 ## Documentation
 

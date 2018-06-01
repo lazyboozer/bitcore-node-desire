@@ -94,8 +94,8 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'bitcore-lib-desire': '^v0.13.17',
-          'bitcore-node-desire': '^v0.2.0'
+            'bitcore-lib-desire': 'desirecoin/bitcore-lib-desire',
+			'bitcore-node-desire': 'desirecoin/bitcore-node-desire'
         }
       };
       var spawn = sinon.stub().returns({
